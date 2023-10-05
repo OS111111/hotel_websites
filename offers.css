@@ -1,0 +1,45 @@
+.special-offers {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .special-offers h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .offer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .offer img {
+    width: 40%;
+    margin-right: 50px;
+  }
+  
+  .offer-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .offer-info p {
+    margin-bottom: 20px;
+  }
+  
+  .offer-info a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offer-info a:hover {
+    background-color: #3e8e41;
+  }
+  

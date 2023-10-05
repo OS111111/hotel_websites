@@ -1,0 +1,181 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.imgmain
+{
+	height: 100vh;
+	width: 120%;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+}
+
+nav a:hover {
+	color: #c60000;
+}
+
+/* Hero Styles */
+
+#hero {
+	background-image: url("istockphoto-1217551672-612x612.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 0.2rem;
+	color: #000000;
+	color-scheme: rgba(255, 255, 0, 0.267);
+	outline-color: blue;
+}
+
+#hero h1 {
+	font-size: 4rem;
+	margin-bottom: 5rem;
+}
+
+#hero p {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+#hero button {
+	background-color: #c60000;
+	color: #dedde4;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#hero button:hover {
+	background-color: #b40000;
+}
+
+/* Room Styles */
+
+#rooms {
+	padding: 5rem;
+}
+
+#rooms h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.room {
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.room img {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 1rem;
+}
+
+.room h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.room p {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.room button {
+	background-color: #c60000;
+	color: #fff;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.room button:hover {
+	background-color: #b40000;
+}
+
+/* Dining Styles */
+
+#dining {
+	background-color: #f9f9f9;
+	padding: 5rem;
+}
+
+#dining h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.restaurant {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.restaurant img {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 1rem;
+}
+
+.restaurant h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.restaurant p {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.restaurant button {
+	background-color: #c60000;
+	color: #fff;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 2rem
+}

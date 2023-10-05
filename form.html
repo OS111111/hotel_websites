@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="MYFORM.css">
+    
+	<title>My Form</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		label, input {
+			margin: 10px;
+			font-size: 18px;
+		}
+		input[type="submit"] {
+			padding: 10px;
+			font-size: 18px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
